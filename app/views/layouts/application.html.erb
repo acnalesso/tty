@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Tty</title>
+  <title>TimToady</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<%= render("helpers/top") %>
 
-<%= yield %>
+<div id='bd'>
+  <%= yield %>
+</div>
 
+<%= render("helpers/footer") %>
 </body>
 </html>

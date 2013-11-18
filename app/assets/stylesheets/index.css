@@ -1,0 +1,92 @@
+@font-face { font-family: advent; src: url('advent.otf'); }
+
+html { overflow-y: scroll }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: advent;
+  background-color: #00FF66;
+}
+div, p, ul,
+h2, h3, h4,
+img, a, input, menu,
+footer, headers, submit{
+padding:0px;
+margin:0px;
+outline: 0px;
+border: 0px;
+}
+
+h2 {
+font-size: 22px;
+color: #00CC33;
+margin: 10px;
+}
+
+select,textarea,input:focus{
+	outline: none;
+	border: none;
+}
+
+#bd {
+width: 100%;
+display: table;
+margin-top: 102px;
+background-color: #fff;
+}
+
+#left_side, #right_side {
+width: 50%;
+float: left;
+display: table;
+}
+
+#activities {
+width: 60%;
+min-height: 150px;
+display: table;
+margin-left: auto;
+}
+#list {
+width: 300px;
+display: table;
+}
+#list li {
+width: 90%;
+margin: 2px;
+}
+
+#right_side {
+float: right;
+}
+
+#intro, #sign_up {
+width: 65%;
+min-height: 100px;
+display: table;
+float: left;
+background: #009966;
+margin: 15px;
+border-radius: 15px;
+margin-right: 0;
+}
+
+.text {
+width: 90%;
+display: block;
+margin: 0 auto;
+color: #fff;
+}
+
+#sign_up {
+margin-top: 5px;
+}
+
+#footer {
+width: 100%;
+height: 100px;
+clear: both;
+border-top: 1px solid #000;
+text-align: center;
+}
