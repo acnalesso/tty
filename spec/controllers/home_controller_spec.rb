@@ -1,5 +1,4 @@
 require 'spec_helper'
-require 'controllers/home_controller'
 
 describe HomeController do
 

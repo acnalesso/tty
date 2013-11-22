@@ -3,90 +3,99 @@
 html { overflow-y: scroll }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: advent;
-  background-color: #00FF66;
-}
-div, p, ul,
-h2, h3, h4,
-img, a, input, menu,
-footer, headers, submit{
-padding:0px;
-margin:0px;
-outline: 0px;
-border: 0px;
-}
-
-h2 {
-font-size: 22px;
-color: #00CC33;
-margin: 10px;
-}
-
-select,textarea,input:focus{
-	outline: none;
-	border: none;
-}
-
-#bd {
+margin: 0;
+padding: 0;
 width: 100%;
-display: table;
-margin-top: 102px;
+font-family: advent;
+background-color: #02222B;
+}
+
+h2.xp {
+height: 25px;
+margin: 5px 0 5px 10px;
+color: #02222B;
+}
+
+
+input[type="text"], input[type="submit"], textarea, #middle,
+.menu{
+min-height: 34px;
+padding: 7px 8px;
+outline: none;
+color: #009966;
 background-color: #fff;
+background-repeat: no-repeat;
+background-position: right center;
+border: 1px solid #000;
+border-radius: 4px;
+box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+vertical-align: middle;
 }
 
-#left_side, #right_side {
-width: 50%;
-float: left;
-display: table;
-}
 
-#activities {
-width: 60%;
-min-height: 150px;
-display: table;
-margin-left: auto;
-}
-#list {
-width: 300px;
-display: table;
-}
-#list li {
+#middle {
 width: 90%;
-margin: 2px;
+display: table;
+min-height: 150px;
+margin: 0 auto;
+margin-top: 45px;
 }
 
-#right_side {
-float: right;
-}
 
-#intro, #sign_up {
-width: 65%;
+#left, #right {
+width: 50%;
 min-height: 100px;
 display: table;
 float: left;
-background: #009966;
-margin: 15px;
-border-radius: 15px;
-margin-right: 0;
-}
-
-.text {
-width: 90%;
-display: block;
-margin: 0 auto;
-color: #fff;
-}
-
-#sign_up {
 margin-top: 5px;
 }
 
+#right {
+float: right;
+}
+
+.menu, #activities, #intro, #sign_up_box {
+background: #e6f1f6;
+border: 1px solid #999;
+border-bottom-color: #555;
+border-radius: 4px;
+color: #009966;
+}
+
+.activities {
+width: 95%;
+margin: 10px;
+list-style: none;
+padding: 0px;
+}
+
+#intro, #sign_up_box {
+  width: 99%;
+  margin: 0px 0px 5px 5px;
+}
+
+.intro {
+width: 90%;
+display: table;
+margin-left: 15px;
+text-align: justify;
+}
+
 #footer {
-width: 100%;
+width: 90%;
 height: 100px;
-clear: both;
-border-top: 1px solid #000;
-text-align: center;
+background: #fff;
+margin: 0 auto;
+margin-top: 5px;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+}
+
+.cp{
+  display: block;
+  margin-left: 5px;
+  line-height: 30px;
+  font-size: 72.5%;
 }

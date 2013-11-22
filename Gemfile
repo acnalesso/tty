@@ -22,4 +22,9 @@ group :test do
   gem 'rspec'
   gem 'rspec-rails'
   gem 'capybara'
+  gem 'capybara-rails'
+  gem 'spork', '~> 1.0rc'
+  gem 'spork-rails'
+  gem 'guard-rspec'
+  gem 'guard-spork'
 end
