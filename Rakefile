@@ -4,5 +4,3 @@
 require File.expand_path('../config/application', __FILE__)
 
 Tty::Application.load_tasks
-
-
